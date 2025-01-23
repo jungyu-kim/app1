@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class App1Application {
 	@GetMapping("/")
 	public String main() {
-		return "Docker app 1 >>>> hello";
+		return "Docker app 1 >>>> hello>>>>>update";
 	}
 	public static void main(String[] args) {
 	SpringApplication.run(App1Application.class, args);
